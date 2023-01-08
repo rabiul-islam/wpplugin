@@ -1,0 +1,95 @@
+    /**
+    * All of the CSS for your public-facing functionality should be
+    * included in this file.
+    */
+
+    .nss_product_filter_wrapper .product_filter_post_inner{
+    background: #FFFFFF; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 8px; 
+    overflow: hidden;
+    margin-bottom: 30px;
+    }
+    .nss_product_filter_wrapper_details{
+    padding: 16px;
+    }
+    .nss_product_filter_wrapper_details a{
+    font-family: 'CorporateSW02-Demi';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    }
+    .nss_product_filter_input_filter{
+    margin-bottom: 50px;
+    }
+    .nss_product_filter_input_filter input[type="submit"]{
+    display: inline-block; 
+        min-height: 64px;
+        width: 10%; 
+    }
+    .nss_product_filter_input_filter input[type="text"]{
+    width: 88%; 
+    display: inline-block;  
+        min-height: 64px;   
+    }
+    #filter_button_wrap{
+    border: 1px solid #E9423F;
+    border-radius: 2px; 
+    height: 60px;
+    }
+    #filter_button_wrap a{
+    display: block;
+    padding: 18px 0px;
+    text-align: center;
+    }
+    .custom_page_wrapper{
+     overflow: hidden;
+    overflow-y: scroll; 
+    position: relative;
+    }
+    .nss_product_filter_load_more{
+     display: none;  
+     margin: 0 auto;
+     position: absolute;
+    }
+    .nss_product_filter_load_more .spinner-border{ 
+    z-index: 99999; 
+    padding: 14px 16px;  
+    width: 122px;
+    height: 40px; 
+    background: #E0E0E0;
+    border-radius: 2px;
+    font-family: 'CorporateSW02-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;  
+    color: #9E9E9E; 
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+     
+
+    /*---Modal---*/
+    #product_filter_modal .modal-content{
+    padding: 30px;
+    }
+    #product_filter_modal li{
+    list-style: none;
+    }
+
+    .modal_button .submit_btn{
+    color: #E9423F;
+    background: #fff;
+    border: 1px solid red;
+    }
+    }
+
